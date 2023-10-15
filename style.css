@@ -1,4 +1,241 @@
-body {
-  color: salmon;
+* {
+    margin: 0;
+    padding: 0;
 }
 
+.main-container {
+    width: 1282px;
+    height: auto;
+}
+.navbar{
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.menu {
+    width: 407px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    color: #20262A;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.button button{
+    border-radius: 85px;
+    border: 1px solid var(--primary, #00B6F0);
+    color: #00B6F0;
+    padding: 10px 36px;
+    align-items: center;
+    display: inline-flex;
+    background-color: white;
+}
+
+.container-body {
+    display: flex;
+    padding: 62px 199px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    background: #FFF;
+}
+
+.title {
+    display: flex;
+padding: 10px;
+align-items: center;
+gap: 10px;
+color: #F3CD03;
+font-family: Circular Std;
+font-size: 36px;
+font-style: normal;
+font-weight: 450;
+line-height: 42px; /* 116.667% */
+letter-spacing: 0.1px;
+}
+
+.fastest {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    font-family: Circular Std;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65px; /* 116.071% */
+    letter-spacing: 0.2px;
+}
+
+.headline {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    font-family: Circular Std;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 38px; /* 158.333% */
+    letter-spacing: 0.2px;
+    color: var(--second-text, #5C5C5C);
+    text-align: center;
+    padding-bottom: 59px;
+}
+
+.download {
+    display: flex;
+    align-items: center;
+}
+
+.button-2 {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    gap: 13px;
+}
+.download button {    
+    border-radius: 20px;
+background: var(--primary, #00B6F0);
+color: white;
+padding: 10px 40px;
+font-size: 10px;
+border: none;
+}
+
+.walkthrough button {
+    border-radius: 85px;
+    border: 1px solid  #00B6F0;
+    color: #00B6F0;
+    padding: 10px 40px;
+    font-size: 10px;
+    align-items: center;
+    display: inline-flex;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.container1{
+    background: var(--dark-background, #182333);
+    padding: 100px 20px;
+    display: flex;
+    gap: 10px;
+    color: #FFF;
+    justify-content: space-between;
+}
+.container-pricing{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-left: 150px;
+}
+
+.sub-container-pricing{
+    color: var(--light-text, #FFF);
+/* Second Headline */
+    font-family: Circular Std;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65px; /* 116.071% */
+    letter-spacing: 0.2px;
+}
+
+.paragraf {
+    font-family: Circular Std;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 30px; /* 157.895% */
+    letter-spacing: 0.2px;
+    width: 440px;
+    height: 90px;
+    padding-top: 20px;
+}
+
+.container-right{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding-right: 150px;
+}
+.trial {
+    font-family: Circular Std;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: 0.1px;
+}
+
+.harga {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.dollar {
+color: #F3CD03;
+font-family: Circular Std;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: 78px; /* 108.333% */
+letter-spacing: 0.2px;    
+}
+
+.user {
+    font-family: Circular Std;
+font-size: 24px;
+font-style: normal;
+font-weight: 450;
+line-height: 38px; /* 158.333% */
+letter-spacing: 0.2px;
+padding: 10px;
+width: 129px;
+}
+
+.sentence {
+    font-family: Circular Std;
+font-size: 19px;
+font-style: normal;
+font-weight: 450;
+line-height: 30px; /* 157.895% */
+letter-spacing: 0.2px;
+padding-bottom: 10px;
+width: 257px;
+}
+
+.get-started button{
+    border-radius: 85px;
+    background: var(--primary, #00B6F0);
+    color: white;
+    padding: 10px 40px;
+    font-size: 10px;
+    border: none;
+    font-family: Circular Std;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0.2px;
+}
